@@ -1,0 +1,62 @@
+.experience-background {
+  display: flex;
+}
+
+.timeline-background {
+  width: 50%;
+}
+
+.experience-item {
+  display: flex;
+  width: 50%;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.experience-item:hover {
+  background-color: lightgreen;
+}
+
+.experience-ball {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background: crimson;
+}
+
+.experience-info {
+  padding: 24px;
+  font-size: 10pt;
+}
+
+.experience-info h4,
+p {
+  margin: 0;
+}
+
+.highlight-experience-background {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: calc(100%);
+  background: darkseagreen;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+  text-align: center;
+}
+
+.highlight-background h1,
+h4,
+p {
+  margin: 8px;
+  padding-bottom: 16px;
+}

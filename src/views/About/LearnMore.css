@@ -1,0 +1,68 @@
+.learnmore-background {
+    display: flex;
+  }
+  
+  .timeline-background {
+    width: 50%;
+  }
+  
+  .learnmore-item {
+    display: flex;
+    width: 50%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .learnmore-item:hover {
+    background-color: lightpink;
+  }
+  
+  .learnmore-ball {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background: lightpink;
+  }
+  
+  .learnmore-info {
+    padding: 24px;
+    font-size: 10pt;
+    text-align: center;
+  }
+  
+  .learnmore-info h4,
+  p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .highlight-learnmore-background {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: calc(100%);
+    background: lemonchiffon;
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+  }
+  
+  .highlight-background h1,
+  h4,
+  p {
+    text-align: center;
+  }
+  
+  .image-item {
+    flex: -1;
+    margin-right: 100px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
