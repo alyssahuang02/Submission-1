@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Added Feature 1- Education Section
-Added Feature 2- Button on "About" page
+Added Feature 1: Education Section <br />
+Added Feature 2: Button on the "About" page
 
 In the project directory, you can run:
 
